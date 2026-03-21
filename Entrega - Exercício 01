@@ -1,3 +1,5 @@
+✮⋆˙ Minha primeira coleção de exercícios da faculdade, usados para treinar lógica e programação em Python. Aqui estão exemplos simples que ajudam a fixar conceitos fundamentais. 𓏲ּ𝄢
+
 print ("Exercício 01 + 05")
 ano_de_nascimento = int(input("Digite seu ano de nascimento: "))
 ano_atual = 2026
