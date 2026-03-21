@@ -1,0 +1,71 @@
+✮⋆˙ Segunda leva de exercícios, agora trabalhando bastante com condições e lógica de decisão. São exemplos que simulam situações reais e ajudam a fixar como o programa responde a diferentes entradas. 𓏲ּ𝄢
+
+print ("Você está em uma floresta. Decida se quer ir para a direita ou esquerda.")
+lado = input("Você quer virar para que lado? ")
+if lado == 'direita':
+    escolha = input("Você encontrou uma montanha. Deseja subir ou voltar? ")
+    if escolha == 'subir':
+        print ("Você encontra um tesouro no topo.")
+    elif escolha == 'voltar':
+        print("Você permanece perdido na floresta.")
+elif lado =='esquerda':
+    escolha2 = input("Você encontra um rio. Deseja atravessar ou voltar? ")
+    if escolha2 == 'atravessar':
+        print ("Você chega a uma vila segura.")
+    else:
+        print ("Você permanece perdido na floresta.")
+else:
+    print ("Você morre.")
+print ()
+numero = int(input("Escolha um número: "))
+if 50 > numero > 10:
+    print("Seu número está entre 10 e 50.")
+elif numero > 50:
+    print ("Seu número é maior que 50.")
+elif numero < 10:
+    print ("Seu número é menor que 10.")
+print ()
+ano = int(input("Escolha um ano: "))
+if (ano%4 == 0 and ano%100 != 0) or (ano%400 == 0):
+    print ("O ano é bissexto.")
+else:
+    print ("O ano não é bissexto.")
+print ()
+usuario = input("Qual seu usuário: ")
+if usuario == "admin":
+    senha = input("Qual a senha? ")
+    if senha == "1234":
+        print("Senha válida!")
+    else:
+        print ("Senha inválida!")
+elif usuario == "convidado":
+    senha = input ("Qual a senha? ")
+    if senha == "1234":
+        print ("Senha válida!")
+    else:
+        print ("Acesso restrito.")
+else:
+    print ("Acesso bloqueado.")
+print ()
+coordenada_x = int(input("Digite uma coordenada (x): "))
+coordenada_y = int(input("Digite uma coordenada (y): "))
+if 10 > coordenada_x > 0 and 10 > coordenada_y > 0:
+    print ("Dentro do quadrado.")
+elif coordenada_x == 0 or coordenada_x == 10 and coordenada_y == 0 or coordenada_y == 10:
+    print ("Na fronteira.")
+else:
+    print ("Fora do quadrado.")
+print ()
+#Desafio
+a = float(input("Digite o primeiro lado: "))
+b = float(input("Digite o segundo lado: "))
+c = float(input("Digite o terceiro lado: "))
+if a + b > c and a + c > b and b + c > a:
+    print("Os lados podem formar um triângulo.")
+if a == b ==c:
+    tipo = "Equilátero"
+elif a ==b or a== c or b == c:
+    tipo = "Isósceles"
+else:
+    tipo = "Escaleno"
+print ("Tipo:", tipo)
