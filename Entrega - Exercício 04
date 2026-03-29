@@ -20,7 +20,7 @@ while len(palavra) < 3 or len(palavra) > 10:
     palavra = input ("Digite uma palavra: ")
 print (f"A palavra digitada foi {palavra} e ela tem {len(palavra)} letras.")
 
-[10:49, 27/03/2026] Mariana Pondé: num1 = int(input("Digite o primeiro número: "))
+num1 = int(input("Digite o primeiro número: "))
 num2 = int(input("Digite o segundo número: "))
 mmc = num1 if num1 > num2 else num2
 while True:
