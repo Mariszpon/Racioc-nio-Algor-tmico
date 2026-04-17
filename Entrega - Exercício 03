@@ -1,1 +1,51 @@
+contador = 0
+while contador != 10 :
+    contador = contador + 1
+    print (contador)
 
+contador = 10
+while contador > 0:
+    print(contador)
+    contador = contador - 1
+
+valor = int(input("Digite um número de 1 a 10: "))
+valor2 = 0
+while valor2 <= 10:
+    print (f"{valor} * {valor2} = {valor*valor2}")
+    valor2 = valor2 + 1
+
+palavra = input("Digite uma palavra: ")
+while len(palavra) < 3 or len(palavra) > 10:
+    print ("O palavra deve estar entre 3 e 10 letras.")
+    palavra = input ("Digite uma palavra: ")
+print (f"A palavra digitada foi {palavra} e ela tem {len(palavra)} letras.")
+
+num1 = int(input("Digite o primeiro número: "))
+num2 = int(input("Digite o segundo número: "))
+mmc = num1 if num1 > num2 else num2
+while True:
+    if mmc % num1 == 0 and mmc % num2 ==0:
+        print(f"O MMC de {num1} e {num2} é {mmc}.")
+        break
+    else:
+        mmc += 1
+
+num1 = int(input("Digite o primeiro número: "))
+num2 = int(input("Digite o segundo número: "))
+mmc = num1 if num1 > num2 else num2
+while not (mmc % num1 == 0 and mmc % num2 == 0):
+    mmc += 1
+print(f"O MMC de {num1} e {num2} é {mmc}.")
+[11:19, 27/03/2026] Mariana Pondé: nota = float(input("Qual sua nota? "))
+while nota < 0 or nota > 10:
+    print("Nota inválida. Digite novamente.")
+    nota = float(input("Qual sua nota? "))
+print("Nota válida.")
+
+n = int(input("Digite um número inteiro positivo:"))
+soma = 0
+i = 1
+while i <= n:
+    soma += i
+    i += 1
+print (f"O somatórios dos {n} primeiros números inteiros é {soma}.")
