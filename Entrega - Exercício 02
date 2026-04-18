@@ -1,5 +1,3 @@
-✮⋆˙ Segunda leva de exercícios, agora trabalhando bastante com condições e lógica de decisão. São exemplos que simulam situações reais e ajudam a fixar como o programa responde a diferentes entradas. 𓏲ּ𝄢
-
 print ("Você está em uma floresta. Decida se quer ir para a direita ou esquerda.")
 lado = input("Você quer virar para que lado? ")
 if lado == 'direita':
