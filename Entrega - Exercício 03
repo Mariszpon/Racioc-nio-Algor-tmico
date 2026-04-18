@@ -1,3 +1,5 @@
+⋆˙⟡ Terceira leva de exercícios, agora explorando ainda mais condições e lógica de repetição. ݁ ˖Ი𐑼⋆
+
 contador = 0
 while contador != 10 :
     contador = contador + 1
